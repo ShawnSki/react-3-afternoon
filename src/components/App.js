@@ -20,7 +20,7 @@ class App extends Component {
     this.deletePost = this.deletePost.bind(this);
     this.createPost = this.createPost.bind(this);
   }
-  axios
+  
 
   componentDidMount() {
     axios.get(`${this.state.baseUrl}/posts`)
